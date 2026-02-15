@@ -1,0 +1,1 @@
+import{_ as s}from"./Button.898cae57.js";import{B as a}from"./Input.2db511a5.js";import{B as c}from"./Select.ed8403e2.js";import{B as u}from"./Toggle.6b4c4eee.js";const l=(n,t,r="")=>{Object.keys(t).forEach(o=>{const e=t[o];o==="Index"&&(o=""),n.component(`${r}${o}`,e)})},i={Button:s,Input:a,Select:c,Toggle:u},g=n=>(l(n,i,"Base"),n);export{g as l};
